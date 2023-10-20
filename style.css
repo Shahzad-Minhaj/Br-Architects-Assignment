@@ -1,0 +1,62 @@
+*{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    height: 45px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+header div1{
+    display: flex;
+}
+#top_pic
+{
+background-image: url("/Image/architect.jpg");
+background-position: center;
+background-repeat: no-repeat;
+width: 100%;
+height: 100vh;
+}
+#top_pic div{
+    text-align: center;
+    padding-top: 300px;
+    font-size: 30px;
+    color: white;
+}
+#top_pic span{
+    background-color: black;
+}
+
+/*.pro_pics{
+ display: flex;
+ width: 150px;
+ height: 150px;
+}*/
+
+#pics{
+    display: flex;
+}
+.abc{
+    position: relative;
+    top: -337px;
+    left: 0px;
+    color: white;
+    background-color: black;
+}
+.def
+{
+    position: relative;
+    top: -337px;
+    left: 0px;
+    color: white;
+    background-color: black;
+}
+footer{
+    background-color: black;
+    height: 45px;
+    color: white;
+}
